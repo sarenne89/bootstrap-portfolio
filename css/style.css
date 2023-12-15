@@ -104,7 +104,7 @@ body {
 
 .skill-card {
     height: 100px;
-    background-color: grey;
+    background-color: var(--offblack);
     border-radius: 10px;
 }
 
