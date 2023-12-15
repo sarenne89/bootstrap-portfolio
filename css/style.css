@@ -119,3 +119,38 @@ i {
 .skill-card.complete {
     background-image: linear-gradient(45deg, var(--primary), var(--secondary));
 }
+
+footer {
+    height: 250px;
+    background-image: linear-gradient(45deg, var(--secondary), var(--primary));
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+footer a:hover {
+    font-size: 120%;
+    transition: 0.3s ease-in-out;
+}
+
+footer a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+footer a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
