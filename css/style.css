@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --primary: #6320ee;
+    --secondary: #8075ff;
+    --lighttext: #f8f0fb;
+    --offblack: #211a1d;
+}
+
+body {
+    background-color: #FBFEF9;
+}
+
+.navbar-brand {
+    background-image: linear-gradient(45deg, var(--secondary), var(--primary));
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+}
+
+.hero-banner {
+    background-image: url(../img/profile.jpg);
+    height: 80dvh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+}
