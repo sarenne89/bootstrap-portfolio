@@ -57,6 +57,10 @@ body {
     border-radius: 10px;
 }
 
+i {
+    color: var(--primary);
+}
+
 .card {
     border: none;
 }
@@ -108,6 +112,10 @@ body {
     border-radius: 10px;
 }
 
+.skill-card p, .skill-card h4 {
+    text-shadow: 2px 2px 8px black;
+}
+
 .skill-card.complete {
-    background-color: #6bbf4d;
+    background-image: linear-gradient(45deg, var(--primary), var(--secondary));
 }
