@@ -68,12 +68,15 @@ body {
     height: 200px;
 }
 
-#work a:first-of-type {
+#work a {
     font-size: 3rem;
 }
 
-.showcase a {
+.showcase a, {
     font-size: 2rem;
+}
+
+.showcase a, .showcase p {
     text-decoration: none;
     text-shadow: 2px 2px 8px black;
 }
