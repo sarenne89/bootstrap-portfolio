@@ -87,31 +87,38 @@ i {
 
 #showcase1 {
     height: 400px;
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/coding-quiz.png);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/planner-app.png);
 }
 
 #showcase2 {
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/password-generator.png);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/coding-quiz.png);
 }
 
 #showcase3 {
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/console-finances.png);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/password-generator.png);
 }
 
 #showcase4 {
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/travel-california.png);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/console-finances.png);
 }
 
 #showcase5 {
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/02-portfolio-4.jpg);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/travel-california.png);
 }
 
 #showcase6 {
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/02-portfolio-1.jpg);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/02-portfolio-4.jpg);
 }
 
 #showcase7 {
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/02-portfolio-1.jpg);
+}
+
+#showcase8 {
     background-image: linear-gradient(45deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/02-portfolio-3.jpg);
+}
+
+#showcase9 {
 }
 
 .skill-card {
